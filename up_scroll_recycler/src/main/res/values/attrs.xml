@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- UpScrollBehavior Custom Attributes -->
+    <declare-styleable name="UpScrollBehavior">
+
+        <!-- Enable/Disable Features -->
+        <attr name="upScroll_enableHeaderHide" format="boolean" />
+        <attr name="upScroll_enableBottomHide" format="boolean" />
+        <attr name="upScroll_enableAnimation" format="boolean" />
+        <attr name="upScroll_enabled" format="boolean" />
+
+        <!-- Animation Configuration -->
+        <attr name="upScroll_animationDuration" format="integer" />
+        <attr name="upScroll_interpolatorType" format="enum">
+            <enum name="linear" value="0" />
+            <enum name="accelerate" value="1" />
+            <enum name="decelerate" value="2" />
+            <enum name="accelerateDecelerate" value="3" />
+            <enum name="anticipate" value="4" />
+            <enum name="overshoot" value="5" />
+            <enum name="bounce" value="6" />
+        </attr>
+
+        <!-- Scroll Behavior Sensitivity -->
+        <attr name="upScroll_scrollThreshold" format="integer" />
+        <attr name="upScroll_minScrollDistance" format="integer" />
+
+        <!-- Directional Behavior -->
+        <attr name="upScroll_hideOnScrollDown" format="boolean" />
+        <attr name="upScroll_showOnScrollUp" format="boolean" />
+        <attr name="upScroll_autoShowAtTop" format="boolean" />
+        <attr name="upScroll_autoShowAtBottom" format="boolean" />
+
+        <!-- Layout Configuration -->
+        <attr name="upScroll_headerHeightOverride" format="dimension" />
+        <attr name="upScroll_bottomHeightOverride" format="dimension" />
+        <attr name="upScroll_snapAnimation" format="boolean" />
+
+        <!-- Advanced Options -->
+        <attr name="upScroll_respectFling" format="boolean" />
+        <attr name="upScroll_hideImmediately" format="boolean" />
+        <attr name="upScroll_showImmediately" format="boolean" />
+
+    </declare-styleable>
+</resources>
