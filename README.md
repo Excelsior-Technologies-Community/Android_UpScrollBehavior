@@ -3,7 +3,7 @@
 [![Kotlin](https://img.shields.io/badge/Kotlin-1.9-blue?logo=kotlin&logoColor=white)](https://kotlinlang.org)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![API](https://img.shields.io/badge/API-21%2B-orange.svg)](#)
-[![](https://jitpack.io/v/Excelsior-Technologies-Community/AnimationBackgroundKit.svg)](https://jitpack.io/#Excelsior-Technologies-Community/AnimationBackgroundKit)
+[![](https://jitpack.io/v/Excelsior-Technologies-Community/Android_UpScrollBehavior.svg)](https://jitpack.io/#Excelsior-Technologies-Community/Android_UpScrollBehavior)
 
 **Up Scroll Behavior** is a lightweight, highly customizable Android library that automatically hides and shows header and bottom views when scrolling a RecyclerView. Create immersive content experiences similar to Instagram, YouTube, and Twitter with just 2 lines of code.
 
@@ -49,7 +49,7 @@ allprojects {
 
 ```gradle
 dependencies {
-    implementation 'com.github.YourUsername:UpScrollBehavior:1.0.0'
+       implementation 'com.github.Excelsior-Technologies-Community:Android_UpScrollBehavior:1.0.0'
 }
 ```
 
